@@ -1,10 +1,10 @@
 body.dark {
-  --main-color: fuchsia;
-  --darkermain-color: fuchsia;
-  --lightermain-color: #fcddff;
-  --secondary-color: #000000;
-  --darkersecondary-color: #152636;
-  --lightersecondary-color: #ffffff;
+  --main-color: #D4A017;
+  --darkermain-color: #a15a04;
+  --lightermain-color: #B86B00;
+  --secondary-color: #1A1A1A;
+  --darkersecondary-color: #242424;
+  --lightersecondary-color: #F5F5F5;
 }
 
 body {
@@ -91,13 +91,13 @@ body.dark {
   background: var(--lightersecondary-color);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(255, 41, 244, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 166, 55, 0.697)!important;
   padding-bottom: 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 20px rgba(0, 255, 145, 0.6)!important;
 }
 .card img, .cover img {
   width: 100%;

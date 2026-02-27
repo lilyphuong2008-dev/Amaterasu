@@ -12,13 +12,13 @@
   --secondary-color: #000000;
   --darkersecondary-color: #152636;
   --lightersecondary-color: #ffffff; */
-  --main-color: rgb(0, 0, 0);
-  --darkermain-color: rgb(41, 41, 41);
-  --lightermain-color: #676767;
-  --secondary-color: #999999;
+  --main-color: #060B1A;
+  --darkermain-color: #0B132B;
+  --lightermain-color: #2EC4B6;
+  --secondary-color: #3A86FF;
   --darkersecondary-color: #ffffff;
-  --lightersecondary-color: #f1f1f1;
-  --main-text-color: #000000;
+  --lightersecondary-color: #10182F;
+  --main-text-color: #3A86FF;
 }
 
 html,
@@ -112,14 +112,14 @@ a:hover {
   background: var(--darkersecondary-color);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 4px 12px rgba(255, 41, 244, 0.4);
+  box-shadow: 0 4px 12px rgba(31, 0, 135, 0.564) !important;
   padding-bottom: 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 20px rgba(84, 0, 186, 0.564) !important;
 }
 
 .card img,
@@ -307,7 +307,7 @@ button:hover {
   border-radius: 16px;
   width: 90%;
   max-width: 600px;
-  box-shadow: 0 8px 24px rgba(255, 68, 246, 0.3);
+  box-shadow: 0 8px 24px rgba(31, 0, 135, 0.564);
   overflow-y: auto;
   max-height: 80vh;
 }
