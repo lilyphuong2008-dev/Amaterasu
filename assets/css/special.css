@@ -1,17 +1,71 @@
 * {
   color: red !important;
+  font-family: 'Courier New', Courier, monospace;
+  /* Font kiểu máy đánh chữ/tín hiệu */
 }
 
 body {
   --main-color: black;
   --darkermain-color: black;
+  background-color: var(--main-color);
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
+}
+
+#purchase {
+  margin-top: 50px;
+  text-align: center;
 }
 
 #purchase .cta {
   background: none !important;
   border: 3px solid silver !important;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
 }
 
 #purchase .cta:hover {
   background: rgba(192, 192, 192, 40%) !important;
+  box-shadow: 0 0 15px silver;
+}
+
+/* Tinh chỉnh thêm cho giống Light Novel */
+h1,
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.section-title {
+  display: block;
+  margin: 25px 0 10px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+em {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid red;
+  margin: 40px 0;
 }
