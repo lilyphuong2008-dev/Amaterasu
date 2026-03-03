@@ -16,6 +16,7 @@ Với phương châm "Học mà chơi, chơi mà học," chúng tôi mong muốn
 | :---: | :--- | :---: |
 | 1 | **Nguyễn Huỳnh Phúc Khánh** | 1910037 |
 | 2 | **Nguyễn Minh Thành** | 1906205 | 
+| 3 | **Nguyễn Nguyên Phương** | 1909005 | 
 | 4 | **Lê Bảo Nghi** | 1906171 | 
 
 ## Link Pages
