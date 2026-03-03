@@ -1,7 +1,6 @@
 * {
   color: red !important;
   font-family: 'Courier New', Courier, monospace;
-  /* Font kiểu máy đánh chữ/tín hiệu */
 }
 
 body {
@@ -43,7 +42,6 @@ body {
   box-shadow: 0 0 15px silver;
 }
 
-/* Tinh chỉnh thêm cho giống Light Novel */
 h1,
 h3 {
   text-transform: uppercase;

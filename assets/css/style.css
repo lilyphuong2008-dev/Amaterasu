@@ -1,4 +1,3 @@
-/* reset & base */
 * {
   margin: 0;
   padding: 0;
@@ -6,27 +5,22 @@
 }
 
 :root {
-  /* --main-color: fuchsia;
-  --darkermain-color: rgb(207, 0, 207);
-  --lightermain-color: #fcddff;
-  --secondary-color: #000000;
-  --darkersecondary-color: #152636;
-  --lightersecondary-color: #ffffff; */
-  --main-color: #060B1A;
-  --darkermain-color: #0B132B;
+  --main-color: #060b1a;
+  --darkermain-color: #0b132b;
   --lightermain-color: #00f7ff;
-  --secondary-color: #3A86FF;
+  --secondary-color: #3a86ff;
   --darkersecondary-color: #ffffff;
-  --lightersecondary-color: #10182F;
-  --main-text-color: #3A86FF;
+  --lightersecondary-color: #10182f;
+  --main-text-color: #3a86ff;
 }
 
 html,
 body {
   background-color: var(--main-color);
   color: var(--secondary-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
   line-height: 1.6;
 }
 
@@ -68,13 +62,20 @@ a:hover {
 .title {
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .subtitle {
   font-size: 20px;
   color: var(--darkersecondary-color);
+  text-align: center;
+}
+
+.sub-title {
+  padding-bottom: 60px;
+  max-width: 900px;
+  margin: auto;
   text-align: center;
 }
 
@@ -114,7 +115,9 @@ a:hover {
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(31, 0, 135, 0.564) !important;
   padding-bottom: 20px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .card:hover {
@@ -333,7 +336,6 @@ button:hover {
 
 .hero-buttons {
   position: absolute;
-  /* visibility: hidden; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -379,9 +381,11 @@ button:hover {
 }
 
 .about-section {
-  background: linear-gradient(to bottom,
-      var(--main-color),
-      var(--lightermain-color));
+  background: linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--lightermain-color)
+  );
   height: 100%;
   width: 100vw;
   padding: 10% 20px;
