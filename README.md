@@ -19,6 +19,14 @@ Với phương châm "Học mà chơi, chơi mà học," chúng tôi mong muốn
 | 3 | **Nguyễn Nguyên Phương** | 1909005 | 
 | 4 | **Lê Bảo Nghi** | 1906171 | 
 
+## Phân công
+| STT | Tên Thành viên | Mã số học sinh | Phân công |
+| :---: | :--- | :---: | :--- |
+| 1 | **Nguyễn Huỳnh Phúc Khánh** | 1910037 | Code chính |
+| 2 | **Nguyễn Minh Thành** | 1906205 | Code chính |
+| 3 | **Nguyễn Nguyên Phương** | 1909005 | Thiết kế + Chỉnh code |
+| 4 | **Lê Bảo Nghi** | 1906171 |  Thiết kế + Chỉnh code |
+
 ## Link Pages
 * **Trang Web Demo:** [https://satou-samaaiaf.github.io/web12-12f1-g13-webstore/](https://satou-samaaiaf.github.io/Amaterasu/)
 * **Repository GitHub:** [https://github.com/satou-samaaiaf/web12-12f1-g13-webstore](https://github.com/satou-samaaiaf/Amaterasu)
