@@ -1,7 +1,7 @@
 # Web bán đồ chơi 
 
 ## Giới thiệu
-Chào mừng bạn đến với [**Amaterasu**](https://satou-samaaiaf.github.io/Amaterasu/ "Website")! 🎉
+Chào mừng bạn đến với [**Amaterasu**](https://satou-samaaiaf.github.io/2526_GK2_12F1_STT3/ "Website")! 🎉
 
 Đây là một trang web thương mại điện tử chuyên cung cấp các loại đồ chơi phong phú, được thiết kế đặc biệt để "kích thích" sự vui nhộn và khơi dậy tiềm năng sáng tạo không giới hạn cho trẻ em lớn.
 
@@ -28,6 +28,6 @@ Với phương châm "Học mà chơi, chơi mà học," chúng tôi mong muốn
 | 4 | **Lê Bảo Nghi** | 1906171 |  Thiết kế + Chỉnh code |
 
 ## Link Pages
-* **Trang Web Demo:** [https://satou-samaaiaf.github.io/web12-12f1-g13-webstore/](https://satou-samaaiaf.github.io/Amaterasu/)
-* **Repository GitHub:** [https://github.com/satou-samaaiaf/web12-12f1-g13-webstore](https://github.com/satou-samaaiaf/Amaterasu)
+* **Trang Web Demo:** [https://satou-samaaiaf.github.io/2526_GK2_12F1_STT3/](https://satou-samaaiaf.github.io/2526_GK2_12F1_STT3/)
+* **Repository GitHub:** [https://github.com/satou-samaaiaf/2526_GK2_12F1_STT3](https://github.com/satou-samaaiaf/2526_GK2_12F1_STT3)
 
