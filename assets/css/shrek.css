@@ -101,3 +101,8 @@ body.shrek-theme .heading {
   border-bottom: 1px solid #9ef474;
   padding-bottom: 6px;
 }
+
+body.shrek-theme.dark .highlight{
+  color: fuchsia;
+	text-shadow: 0 0 4px rgb(255, 69, 255);
+}
