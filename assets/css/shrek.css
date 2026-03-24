@@ -1,0 +1,103 @@
+/* Shrek special style (Shrek Crocs page) */
+body.shrek-theme {
+  background-color: #e9fae0;
+  color: #1f401a;
+  font-family: 'Comic Sans MS', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+body.shrek-theme.dark {
+  background-color: #102b08;
+  color: #dbeccc;
+}
+
+body.shrek-theme.dark .container {
+  border: 2px solid #88be4a;
+  background: radial-gradient(circle at 20% 20%, rgba(170, 255, 115, 0.15), rgba(14, 41, 9, 0.85));
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.65);
+}
+
+body.shrek-theme .container {
+  max-width: 860px;
+  margin: 0 auto;
+  border: 2px solid #8db12e;
+  background: radial-gradient(circle at 20% 20%, rgba(230, 255, 198, 0.9), rgba(205, 244, 141, 0.7));
+  box-shadow: 0 0 18px rgba(54, 104, 29, 0.25);
+  padding: 30px;
+}
+
+body.shrek-theme h1,
+body.shrek-theme h3 {
+  color: #2e5b19;
+  text-shadow: 0 0 4px rgba(96, 166, 33, 0.4);
+}
+
+body.shrek-theme.dark h1,
+body.shrek-theme.dark h3 {
+  color: #bdf37f;
+  text-shadow: 0 0 6px rgba(170, 255, 115, 0.8);
+}
+
+body.shrek-theme h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+body.shrek-theme p,
+body.shrek-theme li,
+body.shrek-theme blockquote,
+body.shrek-theme .intro-content {
+  color: #1f401a;
+}
+
+body.shrek-theme.dark p,
+body.shrek-theme.dark li,
+body.shrek-theme.dark blockquote,
+body.shrek-theme.dark .intro-content {
+  color: #ecffd1;
+}
+
+body.shrek-theme blockquote {
+  border-left: 4px solid #7fc84e;
+  background: rgba(238, 255, 199, 0.2);
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+body.shrek-theme.dark blockquote {
+  border-left-color: #7fc84e;
+  background: rgba(238, 255, 199, 0.1);
+}
+
+body.shrek-theme .product-gallery .big-image,
+body.shrek-theme .product-gallery .thumb-row .thumb {
+  border: 2px solid #7ec645;
+}
+
+body.shrek-theme .product-gallery .thumb-row .thumb:hover,
+body.shrek-theme .product-gallery .thumb-row .thumb:focus {
+  outline: 2px solid #d4ff8a;
+}
+
+body.shrek-theme #purchase .cta {
+  border: 2px solid #b2f26f;
+  color: #153703;
+  background: linear-gradient(135deg, rgba(172, 255, 107, 0.9), rgba(96, 170, 50, 0.9));
+}
+
+body.shrek-theme #purchase .cta:hover {
+  background: linear-gradient(135deg, rgba(196, 255, 146, 1), rgba(114, 188, 71, 1));
+  box-shadow: 0 0 12px rgba(182, 253, 113, 0.8);
+}
+
+body.shrek-theme .neon-toggle {
+  box-shadow: 0 0 25px rgba(86, 194, 55, 0.8);
+}
+
+body.shrek-theme .heading {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #9ef474;
+  padding-bottom: 6px;
+}
