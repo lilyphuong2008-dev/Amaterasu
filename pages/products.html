@@ -20,6 +20,30 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .grid .card {
+      position: relative;
+    }
+    .limited-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background: linear-gradient(135deg, #de2a5a 0%, #ff7a2e 100%);
+      color: white;
+      padding: 0.25rem 0.65rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      box-shadow: 0 0 12px rgba(255, 106, 90, 0.45);
+      z-index: 2;
+    }
+    .card p.muted {
+      color: #7d7d7d;
+      font-size: 0.88rem;
+      margin-top: 4px;
+      line-height: 1.35;
+    }
   </style>
 </head>
 
@@ -97,22 +121,6 @@
         </a>
       </div>
       <div class="card">
-        <a href="../product/pillow-limited.html">
-          <img
-            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdibiMWUC4l9rwRAk4He7hkDCT7dr8oAYEIb8vxmVrwXtrchbEQNviHlSUf3yHBEg5yyc2fYjR_EClvlQtVwROI-0PrZZ6Y9EBP_LdyXGA8P9PzYkOnsXei1onA9xaJxRRVUqIpOg?key=uM4T9K2cZ_zv-lmxAN8BfA"
-            alt="Luminaire" />
-          <h3 style="color: rgb(255, 0, 0)">Gối ôm Luminaire - <i>Limited Edition</i></h3>
-          <p class="muted"></p>
-          <div class="price">
-            <del>299.999 ¥</del> <i class="arrow right"></i> <em style="color: goldenrod">29.999¥</em>
-          </div>
-          <!-- <div
-              id="countdown">
-              Loading timer...
-            </div> -->
-        </a>
-      </div>
-      <div class="card">
         <a href="../product/astolfo-figure.html">
           <img
             src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdnrP1T1J12gSSKNTeZ_LjApS_WQaz4Y-fMWICQ6_y8BeM97-115gBtNDlGWeBsRxthvjpmO39AnKGy6VC3QV_gDm53qZYkA1gFFrtrCnCqNPxzICuyH4hm2WXt-TndsULNtH0olA?key=uM4T9K2cZ_zv-lmxAN8BfA"
@@ -142,21 +150,37 @@
         </a>
       </div>
       <div class="card">
+        <div class="limited-badge">Ultra Rare</div>
         <a href="../product/shrek-crocs.html">
           <img
             src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXciDYDO8O4nxcuVbT1tDtRwydgWPDsZafq19z1VRSY8AUmdQH9bOsk3U36duT9HA4JA_A8EDFdb-OpFt_uLSGDer0rcc9DLS4aVWN3aOJxb-Y_97QQjLkV0K_rrsDOzvBZ2j7Aq6Q?key=uM4T9K2cZ_zv-lmxAN8BfA"
             alt="Shrek" />
           <h3>Dép Shrek liếm chân</h3>
+          <p class="muted">Trải nghiệm sự âu yếm nồng nhiệt từ chúa tể đầm lầy với công nghệ "lưỡi giả lập" khiến bạn đi đến đâu... rợn người đến đó.</p>
           <div class="price">69.420¥</div>
         </a>
       </div>
       <div class="card">
+        <div class="limited-badge">Limited</div>
+        <a href="../product/pillow-limited.html">
+          <img
+            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdibiMWUC4l9rwRAk4He7hkDCT7dr8oAYEIb8vxmVrwXtrchbEQNviHlSUf3yHBEg5yyc2fYjR_EClvlQtVwROI-0PrZZ6Y9EBP_LdyXGA8P9PzYkOnsXei1onA9xaJxRRVUqIpOg?key=uM4T9K2cZ_zv-lmxAN8BfA"
+            alt="Luminaire" />
+          <h3 style="color: rgb(255, 0, 0)">Gối ôm Luminaire - <i>Limited Edition</i></h3>
+          <p class="muted">Số lượng cực hạn, hãy sở hữu gối ôm Luminaire ngay với giá cực ưu đãi. Giá cũ 299.999¥, giá mới siêu hot 29.999¥.</p>
+          <div class="price">
+            <del>299.999 ¥</del> <i class="arrow right"></i> <em style="color: goldenrod">29.999¥</em>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <div class="limited-badge">Legendary</div>
         <a href="../product/covid.html">
           <img
             src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXep-gIe_hDOPbhcgdEroGPSV2Lr3_xxAkvq9XI8BZsXM0r7EC2x2LGtcCNWpVkZeQIYXlbAbBlAfIA-xm4MK45K0YC-7oGkUxWTIzQ-hww_RbkJF7kcmKww5JZayL3xX-wRs_dDhw?key=uM4T9K2cZ_zv-lmxAN8BfA"
             alt="Covid" />
           <h3>Bạn gái 🥰</h3>
-          <p class="muted">Sức mạnh hủy diệt hàng triệu sinh mạng bằng sự quyến rũ chết người.</p>
+          <p class="muted">Phiên bản độc quyền, với sức mạnh hủy diệt hàng triệu sinh mạng bằng sự quyến rũ chết người. Chỉ còn 1 sản phẩm!!!</p>
           <div class="price">799.999¥</div>
         </a>
       </div>
