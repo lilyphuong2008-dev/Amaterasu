@@ -6,7 +6,7 @@
 body {
   --main-color: black;
   --darkermain-color: black;
-  background-color: var(--main-color);
+  background: var(--main-color);
   margin: 0;
   padding: 20px;
   line-height: 1.6;
