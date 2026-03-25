@@ -611,16 +611,13 @@ button:hover {
   0% {
     transform: rotate(0deg);
   }
-  50% {
-    transform: rotate(180deg);
-  }
   100% {
     transform: rotate(360deg);
   }
 }
 
 .barrel-roll {
-  animation: barrelRoll 1s ease-in-out;
+  animation: barrelRoll 0.9s ease-in-out;
   transform-origin: center center;
 }
 
