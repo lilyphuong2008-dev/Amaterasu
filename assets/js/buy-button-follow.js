@@ -12,15 +12,15 @@
 
         const speed = Number(options.speed) || 400; // px per second
 
-        let targetX = window.pageXOffset + window.innerWidth / 2;
-        let targetY = window.pageYOffset + window.innerHeight / 2;
+        let targetX = -1000;
+        let targetY = -1000;
         let currentX = -1000;
         let currentY = -1000;
         let lastTimestamp = null;
         let firstFrame = false;
-        let hasMousePosition = true;
-        let lastClientX = window.innerWidth / 2;
-        let lastClientY = window.innerHeight / 2;
+        let hasMousePosition = false;
+        let lastClientX = 0;
+        let lastClientY = 0;
 
         function updateTarget(event) {
             lastClientX = event.clientX;
