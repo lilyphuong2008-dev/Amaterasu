@@ -21,6 +21,12 @@
     pathSegments.pop();
     const baseUrl = pathSegments.join('/');
 
+    function enqueueBuyButtonFollow(container, options = { speed: 450 }) {
+        if (window.initBuyButtonFollow) {
+            window.initBuyButtonFollow(container, options);
+        }
+    }
+
     components.forEach(fileName => {
         const htmlPath = `${baseUrl}/html/${fileName}.html`;
         const cssPath = `${baseUrl}/css/${fileName}.css`;
@@ -75,6 +81,7 @@
             // A. Serve from Cache (Instant, no flicker)
             targetElement.innerHTML = cachedContent;
             console.log(`Loaded ${fileName} from cache.`);
+            enqueueBuyButtonFollow(targetElement, { speed: 450 });
         } else {
             // B. Fetch from Network
             fetch(htmlPath)
@@ -87,6 +94,7 @@
                     targetElement.innerHTML = html;
                     // Save to Session Storage for next time
                     sessionStorage.setItem(cacheKey, html);
+                    enqueueBuyButtonFollow(targetElement, { speed: 450 });
                 })
                 .catch(error => {
                     console.error(`Error loading ${fileName}:`, error);
